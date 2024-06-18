@@ -1,3 +1,9 @@
+import os
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
+os.system("clear")
+
+
+
 import numpy as np
 import pprint as pp
 from tensorflow.keras.preprocessing.sequence import pad_sequences
